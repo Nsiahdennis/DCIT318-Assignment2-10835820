@@ -92,6 +92,8 @@ class Bicycle : IMovable
 // Main Program Entry Point
 class Program
 {
+    private static object console;
+
     static void Main(string[] args)
     {
         Console.WriteLine("=== DCIT 318 Assignment 2 ===\n");
@@ -103,7 +105,7 @@ class Program
         genericAnimal.MakeSound(); // Output: Some generic sound
         dog.MakeSound();           // Output: Bark
         cat.MakeSound();           // Output: Meow
-        onsole.WriteLine("\n2. Abstract Classes and Methods:");
+        Console.WriteLine("\n2. Abstract Classes and Methods:");
         Shape circle = new Circle(5);
         Shape rectangle = new Rectangle(4, 6);
         Console.WriteLine($"Circle Area: {circle.GetArea():F2}");
@@ -112,6 +114,14 @@ class Program
         IMovable car = new Car();
         IMovable bicycle = new Bicycle();
         car.Move();       // Output: Car is moving
+        bicycle.Move();   // Output: Bicycle is moving
+
+        Console.WriteLine("\nPress any key to exit.");
+        Console.ReadKey();
+    }
+}
+
+
 
 
 
