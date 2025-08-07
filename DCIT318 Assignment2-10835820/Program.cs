@@ -103,7 +103,11 @@ class Program
         genericAnimal.MakeSound(); // Output: Some generic sound
         dog.MakeSound();           // Output: Bark
         cat.MakeSound();           // Output: Meow
-
+        onsole.WriteLine("\n2. Abstract Classes and Methods:");
+        Shape circle = new Circle(5);
+        Shape rectangle = new Rectangle(4, 6);
+        Console.WriteLine($"Circle Area: {circle.GetArea():F2}");
+        Console.WriteLine($"Rectangle Area: {rectangle.GetArea():F2}");
 
 
 
