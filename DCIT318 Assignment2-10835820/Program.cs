@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Project 
+namespace Project
 {
     // ============================
     // 1. Inheritance & Overriding
@@ -59,4 +59,11 @@ namespace Project
             Width = width;
             Height = height;
         }
+        public override double GetArea()
+        {
+            return Width * Height;
+        }
+    }
+}
+
 
