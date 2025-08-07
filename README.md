@@ -1,4 +1,4 @@
-# DCIT 318 Assignment 2 – C# Console Application
+DCIT 318 project work 2
 
 This project is a submission for **DCIT 318: Programming II – Assignment 2**. It is a C# console application that demonstrates key concepts of **object-oriented programming (OOP)**, including:
 
