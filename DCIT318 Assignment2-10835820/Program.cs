@@ -56,4 +56,7 @@ namespace Project
 
         public Rectangle(double width, double height)
         {
+            Width = width;
+            Height = height;
+        }
 
