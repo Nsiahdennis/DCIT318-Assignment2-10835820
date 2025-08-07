@@ -89,6 +89,11 @@ class Bicycle : IMovable
 }
 
 // Main Program Entry Point
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("=== DCIT 318 Assignment 2 ===\n");
 
 
 
