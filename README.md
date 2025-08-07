@@ -1,6 +1,5 @@
 DCIT 318 project work 2
-
-This project is a submission for **DCIT 318: Programming II – Assignment 2**. It is a C# console application that demonstrates key concepts of **object-oriented programming (OOP)**, including:
+It is a C# console application that demonstrates key concepts of **object-oriented programming (OOP)**, including:
 
 1. Inheritance and Method Overriding  
 2. Abstract Classes and Methods  
@@ -10,7 +9,7 @@ Project Structure
 
 1. Inheritance and Method Overriding
 
- A base class `Animal` contains a virtual method `MakeSound()` that prints `"Some generic sound"`.
+ A base class Animal contains a virtual method `MakeSound()` that prints `"Some generic sound"`.
  Two derived classes:
    `Dog` overrides `MakeSound()` to print `"Bark"`.
    `Cat` overrides `MakeSound()` to print `"Meow"`.
