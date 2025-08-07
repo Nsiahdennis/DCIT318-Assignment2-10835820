@@ -108,6 +108,10 @@ class Program
         Shape rectangle = new Rectangle(4, 6);
         Console.WriteLine($"Circle Area: {circle.GetArea():F2}");
         Console.WriteLine($"Rectangle Area: {rectangle.GetArea():F2}");
+        Console.WriteLine("\n3. Interfaces:");
+        IMovable car = new Car();
+        IMovable bicycle = new Bicycle();
+        car.Move();       // Output: Car is moving
 
 
 
