@@ -11,23 +11,23 @@ Project Structure
 
  A base class Animal contains a virtual method `MakeSound()` that prints `"Some generic sound"`.
  Two derived classes:
-   `Dog` overrides `MakeSound()` to print `"Bark"`.
-   `Cat` overrides `MakeSound()` to print `"Meow"`.
+   Dog overrides MakeSound() to print Bark.
+   Cat overrides MakeSound() to print Meow.
  Demonstrates **polymorphism** and method overriding in C#.
 
  2. Abstract Classes and Methods
-     An abstract base class `Shape` defines an abstract method `GetArea()`.
+     An abstract base class Shape defines an abstract method GetArea().
  Derived classes:
-   `Circle` implements `GetArea()` using the formula `π × r²`.
-   `Rectangle` implements `GetArea()` using the formula `width × height`.
+Circle implements GetArea() using the formula π × r².
+Rectangle implements GetArea() using the formula width × height.
  Shows how **abstract classes enforce method implementation** in derived classes
 
 3. Interfaces
 
-An interface `IMovable` defines a method `Move()`.
+An interface IMovable defines a method Move().
 Implemented by:
-   `Car` class – prints `"Car is moving"`.
-   `Bicycle` class – prints `"Bicycle is moving"`.
+   Car class – prints Car is moving.
+   Bicycle class – prints Bicycle is moving.
  Demonstrates **interface implementation** and polymorphism via interfaces.
  Sample Output
 
