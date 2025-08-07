@@ -29,6 +29,12 @@ namespace Project
         }
     }
 
-    
+
     // 2. Abstract Classes & Methods
-    
+    abstract class Shape
+    {
+        public abstract double GetArea();
+    }
+
+    class Circle : Shape
+    {
