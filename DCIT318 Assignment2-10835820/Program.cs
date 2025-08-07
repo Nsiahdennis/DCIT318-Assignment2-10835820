@@ -1,2 +1,31 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace Project 
+{
+    // ============================
+    // 1. Inheritance & Overriding
+    // ============================
+    class Animal
+    {
+        public virtual void MakeSound()
+        {
+            Console.WriteLine("Some generic sound");
+        }
+    }
+
+    class Dog : Animal
+    {
+        public override void MakeSound()
+        {
+            Console.WriteLine("Bark");
+        }
+    }
+
+    class Cat : Animal
+    {
+        public override void MakeSound()
+        {
+            Console.WriteLine("Meow");
+        }
+    }
+
