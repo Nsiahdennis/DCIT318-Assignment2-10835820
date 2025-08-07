@@ -44,3 +44,9 @@ namespace Project
         {
             Radius = radius;
         }
+        public override double GetArea()
+        {
+            return Math.PI * Radius * Radius;
+        }
+    }
+
